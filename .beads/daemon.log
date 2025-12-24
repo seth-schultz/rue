@@ -4668,3 +4668,7 @@ fatal: couldn't find remote ref beads-metadata
 [2025-12-24 16:48:34] Import triggered by file change
 [2025-12-24 16:48:34] Starting auto-import...
 [2025-12-24 16:48:34] Skipping auto-import: JSONL content unchanged
+[2025-12-24 16:50:09] Git HEAD change detected: .git/HEAD
+[2025-12-24 16:50:10] Import triggered by file change
+[2025-12-24 16:50:10] Starting auto-import...
+[2025-12-24 16:50:10] Skipping auto-import: JSONL content unchanged

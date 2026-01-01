@@ -1,7 +1,7 @@
 {
-  "pid": 32059,
-  "parent_pid": 32038,
-  "database": "/Users/steveklabnik/Code/rue/work/.beads/beads.db",
-  "version": "0.35.0",
-  "started_at": "2025-12-24T22:46:20.192914Z"
+  "pid": 84989,
+  "parent_pid": 84974,
+  "database": "/home/stat/github/steveklabnik/rue/jj/.beads/beads.db",
+  "version": "0.42.0",
+  "started_at": "2026-01-01T19:35:33.682384455Z"
 }

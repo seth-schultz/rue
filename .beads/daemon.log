@@ -6761,3 +6761,308 @@ time=2026-01-04T13:27:14.500-06:00 level=INFO msg="Git ref change detected: %s" 
 time=2026-01-04T13:27:15.520-06:00 level=INFO msg="Import triggered by file change"
 time=2026-01-04T13:27:15.521-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
 time=2026-01-04T13:27:15.521-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T13:50:32.227-06:00 level=INFO msg="Daemon started (interval: %v, auto-commit: %v, auto-push: %v)" !BADKEY=5s !BADKEY=false !BADKEY=false
+time=2026-01-04T13:50:32.227-06:00 level=INFO msg="using database" path=/Users/steveklabnik/Code/rue/work/.beads/beads.db
+time=2026-01-04T13:50:32.232-06:00 level=INFO msg="database opened" path=/Users/steveklabnik/Code/rue/work/.beads/beads.db freshness_checking=true
+time=2026-01-04T13:50:32.232-06:00 level=INFO msg="upgrading .beads/.gitignore"
+time=2026-01-04T13:50:32.232-06:00 level=WARN msg="failed to upgrade .gitignore" error="open .beads/.gitignore: no such file or directory"
+time=2026-01-04T13:50:32.238-06:00 level=INFO msg="Repository fingerprint validated: %s" !BADKEY=437e9369
+time=2026-01-04T13:50:32.238-06:00 level=WARN msg="database schema version mismatch" db_version=0.35.0 daemon_version=0.43.0
+time=2026-01-04T13:50:32.238-06:00 level=INFO msg="auto-upgrading database to daemon version"
+time=2026-01-04T13:50:32.238-06:00 level=INFO msg="database version updated" version=0.43.0
+time=2026-01-04T13:50:32.238-06:00 level=INFO msg="starting RPC server" socket=/Users/steveklabnik/Code/rue/work/.beads/bd.sock
+time=2026-01-04T13:50:32.238-06:00 level=INFO msg="RPC server ready (socket listening)"
+time=2026-01-04T13:50:32.244-06:00 level=INFO msg="registered in global registry"
+time=2026-01-04T13:50:32.244-06:00 level=INFO msg="Starting %s..." !BADKEY="sync cycle"
+time=2026-01-04T13:50:32.270-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T13:50:32.307-06:00 level=INFO msg="Pull failed: %v" !BADKEY="failed to get current branch: exit status 128"
+time=2026-01-04T13:50:32.307-06:00 level=INFO msg="monitoring parent process" pid=0
+time=2026-01-04T13:50:32.307-06:00 level=INFO msg="using event-driven mode"
+time=2026-01-04T13:50:32.307-06:00 level=INFO msg="Auto-pull disabled: use 'git pull' manually to sync remote changes"
+time=2026-01-04T13:51:16.669-06:00 level=INFO msg="Mutation detected: %s %s" status=rue-bk7s
+time=2026-01-04T13:51:17.171-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T13:51:17.171-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T13:51:17.222-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T13:51:17.223-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T13:51:17.223-06:00 level=INFO msg="Export complete"
+time=2026-01-04T13:51:17.273-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T13:51:17.273-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T13:51:18.275-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T13:51:18.275-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T13:51:18.277-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:08:09.725-06:00 level=INFO msg="Mutation detected: %s %s" status=rue-bk7s
+time=2026-01-04T14:08:10.226-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:08:10.226-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:08:10.272-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:08:10.273-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:08:10.273-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:08:10.324-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:08:10.324-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:08:11.326-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:08:11.326-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:08:11.328-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:16:36.388-06:00 level=INFO msg="Mutation detected: %s %s" status=rue-8qt6
+time=2026-01-04T14:16:36.889-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:16:36.889-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:16:36.942-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:16:36.942-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:16:36.942-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:16:36.993-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:16:36.993-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:16:37.995-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:16:37.996-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:16:37.997-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:33:29.196-06:00 level=INFO msg="Mutation detected: %s %s" status=rue-8qt6
+time=2026-01-04T14:33:29.697-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:33:29.697-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:33:29.736-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:33:29.736-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:33:29.737-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:33:29.787-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:33:29.787-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:33:30.789-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:33:30.790-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:33:30.791-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:36:45.217-06:00 level=INFO msg="Mutation detected: %s %s" status=rue-xo14
+time=2026-01-04T14:36:45.219-06:00 level=INFO msg="Mutation detected: %s %s" status=rue-nj40.4
+time=2026-01-04T14:36:45.720-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:36:45.720-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:36:45.772-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:36:45.772-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:36:45.773-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:36:45.824-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:36:45.824-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:36:46.826-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:36:46.826-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:36:46.828-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:38:41.039-06:00 level=INFO msg="Mutation detected: %s %s" status=rue-nj40
+time=2026-01-04T14:38:41.540-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:38:41.540-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:38:41.594-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:38:41.594-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:38:41.594-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:38:41.645-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:38:41.645-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:38:42.648-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:38:42.648-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:38:42.648-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:43:20.823-06:00 level=INFO msg="Mutation detected: %s %s" create=rue-270h
+time=2026-01-04T14:43:21.324-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:43:21.324-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:43:21.369-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:43:21.369-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:43:21.370-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:43:21.387-06:00 level=INFO msg="Mutation detected: %s %s" create=rue-la2y
+time=2026-01-04T14:43:21.421-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:43:21.421-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:43:21.888-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:43:21.888-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:43:21.947-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:43:21.948-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:43:21.948-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:43:21.999-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:43:21.999-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:43:22.196-06:00 level=INFO msg="Mutation detected: %s %s" create=rue-4s3x
+time=2026-01-04T14:43:22.422-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:43:22.422-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:43:22.423-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:43:22.697-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:43:22.697-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:43:22.749-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:43:22.749-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:43:22.750-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:43:22.800-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:43:22.800-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:43:22.946-06:00 level=INFO msg="Mutation detected: %s %s" create=rue-6q21
+time=2026-01-04T14:43:23.000-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:43:23.000-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:43:23.001-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:43:23.447-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:43:23.448-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:43:23.502-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:43:23.503-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:43:23.503-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:43:23.554-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:43:23.554-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:43:23.803-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:43:23.803-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:43:23.804-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:43:24.180-06:00 level=INFO msg="Mutation detected: %s %s" create=rue-dxc0
+time=2026-01-04T14:43:24.555-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:43:24.555-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:43:24.556-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:43:24.681-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:43:24.681-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:43:24.720-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:43:24.720-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:43:24.720-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:43:24.771-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:43:24.771-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:43:25.523-06:00 level=INFO msg="Mutation detected: %s %s" create=rue-45jy
+time=2026-01-04T14:43:25.773-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:43:25.774-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:43:25.775-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:43:26.024-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:43:26.024-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:43:26.079-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:43:26.079-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:43:26.080-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:43:26.131-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:43:26.131-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:43:26.279-06:00 level=INFO msg="Mutation detected: %s %s" create=rue-u9ov
+time=2026-01-04T14:43:26.779-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:43:26.779-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:43:26.834-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:43:26.834-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:43:26.835-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:43:26.885-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:43:26.885-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:43:27.133-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:43:27.133-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:43:27.134-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:43:27.445-06:00 level=INFO msg="Mutation detected: %s %s" create=rue-yo5w
+time=2026-01-04T14:43:27.887-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:43:27.888-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:43:27.890-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:43:27.946-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:43:27.946-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:43:27.984-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:43:27.985-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:43:27.985-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:43:28.036-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:43:28.036-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:43:29.037-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:43:29.037-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:43:29.039-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:43:51.957-06:00 level=INFO msg="Mutation detected: %s %s" update=rue-270h
+time=2026-01-04T14:43:52.458-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:43:52.458-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:43:52.509-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:43:52.509-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:43:52.509-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:43:52.560-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:43:52.560-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:43:53.562-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:43:53.562-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:43:53.563-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:43:53.772-06:00 level=INFO msg="Mutation detected: %s %s" update=rue-la2y
+time=2026-01-04T14:43:54.273-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:43:54.273-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:43:54.314-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:43:54.314-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:43:54.315-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:43:54.365-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:43:54.365-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:43:55.367-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:43:55.367-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:43:55.368-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:43:55.869-06:00 level=INFO msg="Mutation detected: %s %s" update=rue-4s3x
+time=2026-01-04T14:43:56.371-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:43:56.371-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:43:56.422-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:43:56.422-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:43:56.423-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:43:56.474-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:43:56.474-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:43:57.438-06:00 level=INFO msg="Mutation detected: %s %s" update=rue-6q21
+time=2026-01-04T14:43:57.476-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:43:57.476-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:43:57.477-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:43:57.939-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:43:57.939-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:43:57.979-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:43:57.979-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:43:57.980-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:43:58.031-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:43:58.031-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:43:58.492-06:00 level=INFO msg="Mutation detected: %s %s" update=rue-dxc0
+time=2026-01-04T14:43:58.993-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:43:58.994-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:43:59.031-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:43:59.031-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:43:59.033-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:43:59.046-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:43:59.046-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:43:59.047-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:43:59.097-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:43:59.097-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:43:59.195-06:00 level=INFO msg="Mutation detected: %s %s" update=rue-45jy
+time=2026-01-04T14:43:59.696-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:43:59.696-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:43:59.749-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:43:59.749-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:43:59.750-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:43:59.801-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:43:59.801-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:44:00.100-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:44:00.100-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:44:00.101-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:44:00.243-06:00 level=INFO msg="Mutation detected: %s %s" update=rue-u9ov
+time=2026-01-04T14:44:00.744-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:44:00.745-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:44:00.788-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:44:00.788-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:44:00.788-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:44:00.803-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:44:00.803-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:44:00.803-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:44:00.839-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:44:00.839-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:44:01.634-06:00 level=INFO msg="Mutation detected: %s %s" update=rue-yo5w
+time=2026-01-04T14:44:01.841-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:44:01.842-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:44:01.842-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:44:02.135-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:44:02.136-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:44:02.187-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:44:02.187-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:44:02.187-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:44:02.238-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:44:02.238-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:44:03.239-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:44:03.240-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:44:03.241-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:44:07.557-06:00 level=INFO msg="Mutation detected: %s %s" update=rue-yo5w
+time=2026-01-04T14:44:08.058-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:44:08.058-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:44:08.109-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:44:08.109-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:44:08.110-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:44:08.160-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:44:08.160-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:44:08.468-06:00 level=INFO msg="Mutation detected: %s %s" update=rue-la2y
+time=2026-01-04T14:44:08.970-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:44:08.970-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:44:09.023-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:44:09.023-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:44:09.023-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:44:09.074-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:44:09.074-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:44:09.163-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:44:09.163-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:44:09.164-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:44:10.075-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:44:10.076-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:44:10.078-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T14:45:12.197-06:00 level=INFO msg="Mutation detected: %s %s" status=rue-270h
+time=2026-01-04T14:45:12.698-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T14:45:12.698-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T14:45:12.751-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T14:45:12.751-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T14:45:12.751-06:00 level=INFO msg="Export complete"
+time=2026-01-04T14:45:12.801-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T14:45:12.801-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T14:45:13.804-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T14:45:13.804-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T14:45:13.805-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
+time=2026-01-04T15:04:46.895-06:00 level=INFO msg="Mutation detected: %s %s" status=rue-270h
+time=2026-01-04T15:04:47.396-06:00 level=INFO msg="Export triggered by mutation events"
+time=2026-01-04T15:04:47.396-06:00 level=INFO msg="Starting %s..." !BADKEY=export
+time=2026-01-04T15:04:47.423-06:00 level=INFO msg="Exported to JSONL"
+time=2026-01-04T15:04:47.423-06:00 level=INFO msg="JSONL removed/renamed, re-establishing watch"
+time=2026-01-04T15:04:47.423-06:00 level=INFO msg="Export complete"
+time=2026-01-04T15:04:47.474-06:00 level=INFO msg="Successfully re-established JSONL watch after %v" !BADKEY=50ms
+time=2026-01-04T15:04:47.474-06:00 level=INFO msg="JSONL file created: %s" !BADKEY=/Users/steveklabnik/Code/rue/work/.beads/issues.jsonl
+time=2026-01-04T15:04:48.476-06:00 level=INFO msg="Import triggered by file change"
+time=2026-01-04T15:04:48.476-06:00 level=INFO msg="Starting %s..." !BADKEY=auto-import
+time=2026-01-04T15:04:48.477-06:00 level=INFO msg="Skipping %s: JSONL content unchanged" !BADKEY=auto-import
